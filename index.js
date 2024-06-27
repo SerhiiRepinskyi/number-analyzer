@@ -93,15 +93,15 @@ async function main() {
   const increasingSequence = longestIncreasingSubarray(numbers);
   const decreasingSequence = longestDecreasingSubarray(numbers);
 
-  console.log(`Максимальне число: ${maxNumber}`);
-  console.log(`Мінімальне число: ${minNumber}`);
-  console.log(`Медіана: ${median}`);
-  console.log(`Середнє арифметичне: ${mean}`);
+  console.log(`Maximum number: ${maxNumber}`);
+  console.log(`Minimum number: ${minNumber}`);
+  console.log(`Median: ${median}`);
+  console.log(`Arithmetic mean: ${mean}`);
   console.log(
-    `Найбільша зростаюча послідовність: ${increasingSequence.join(", ")}`
+    `Longest increasing subsequence: ${increasingSequence.join(", ")}`
   );
   console.log(
-    `Найбільша спадна послідовність: ${decreasingSequence.join(", ")}`
+    `Longest decreasing subsequence: ${decreasingSequence.join(", ")}`
   );
 }
 
